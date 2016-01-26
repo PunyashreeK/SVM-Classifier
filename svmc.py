@@ -10,7 +10,7 @@ def load_kdd_cup_99_dataset_all():
     from the file 'corrected'
     This will return a list consisting of different params.
     """
-    lines = open(PATH_INFO.DATASET_DIR + '/corrected').readlines()
+    lines = open(PATH_INFO.DATASET_DIR + 'corrected').readlines()
 
     dataset = []
 
