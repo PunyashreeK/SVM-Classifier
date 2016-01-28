@@ -18,3 +18,5 @@ def load_kdd_cup_99_dataset_all():
         dataset.append(line.replace('\n', '').split(','))
 
     return dataset
+    
+    # End of Code
